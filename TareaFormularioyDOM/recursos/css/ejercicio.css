@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(233, 235, 245);
+}
+
+#tituloformulario{
+    color: blue;
+    font-family: 'Roboto';
+   margin-top: 5px;
+   margin-bottom: 15px;
+   margin-left: 125px;
+
+  }
+
+  .etiqueta{
+      color:blue;
+      margin-left: 50px;
+      margin-right: auto;
+      font-weight: bold;
+  }
+
+  .entrada1{
+    margin-left: 24px;
+    margin-right: auto;
+
+  }
+  .entrada2{
+    margin-left: 38px;
+    margin-right: auto;
+
+  }
+
+.input-group{
+    border-width: 3px;
+    border-color: blue;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+  /*margin-left: 5px;
+    margin-right: 5px;*/
+
+}
+.caja{
+    color: blue;
+    font-weight: bold;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6D597A;
+
+    /*Dimensiones*/
+    width: 300;
+    height: 300;
+
+    /*Espacio con Margenes*/
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    text-align: center;
+}
+button{
+  margin-left: 50px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <script defer src="js/main.js"></script>
+    <script defer src="/js/seguridad/login.js"></script>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="#">  <!--Para que no aparezca el error de que no encuentra el Favicon-->
+    <title>Login</title>
+</head>
+ 
+<body>
+    <main class="container">
+         <section class="row">
+            <article>
+                <img class="avatar" src="/img/crm.png" alt="CRM">
+            </article>
+            <article class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="login-form">
+                            <div>
+                             <label for="username" class="form-label">Username</label>
+                              <input type="text" class="form-control" id="username" name="username">
+                            </div>
+                            <div class="login">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="password" name="password">
+                            </div>
+                           <button type="submit" class="btn btn-success">Login</button>
+                      </form>
+                    </div>
+                </div>
+            </article>
+            <article class="registro">
+                <a href="/crearusuario.html">Registrarse</a>
+            </article>
+        </section>
+    </main>
+</body>
+</html

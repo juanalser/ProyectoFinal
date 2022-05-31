@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.avatar {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.container {
+    display:flex;
+    width: 50vw;
+    height:50vh;
+    resize: both;
+    margin: 0 auto; 
+    justify-content: center;
+}
+
+.login-form {
+    width: 150px;
+    margin-left: 15px;
+   
+}
+.card {
+    margin-top: 50px;    
+}
+
+.btn-success{
+    margin-top: 15px;    
+}
+
+.registro {
+   text-align: center;
+   justify-content: center;
+}
+
+#nombreusuario{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+ }
+
+.copyright-box{
+    width: 50vw;
+    height:50vh;
+    text-align: center;
+    justify-content: center;
+}

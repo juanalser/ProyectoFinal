@@ -1,0 +1,44 @@
+<!DOCTYPE html5>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea Formulario y el DOM</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/ejercicio.css">
+        <script defer src="/js/ejercicio.js"></script>
+    </head>
+
+    <body>
+        <form id="miformulario">
+        <p class="verde">
+            Interactuando con el DOM (Document Objet Model).
+            <br>
+            En este formulario tenemos 3 campos que modifican las siguientes propiedades de los elementos HTML
+            </br>
+            </p> <ul class="verde">
+                <li>el color de fondo</li>
+                <li>el tamaño de fuentes</li>
+                <li>altura y ancho</li>
+            <li>mensaje dentro del elemento caja</li>
+            </ul>    
+        </p>
+        <h3 id="tituloformulario">Mi formulario</h3>
+        <div class="input-group"> 
+            <label class="etiqueta" for="ancho">Ancho</label>
+            <input class="entrada1" id="ancho" type="text">
+        </div class="input-group">
+            <label class="etiqueta" for="alto">Alto</label>
+            <input class="entrada2"id="alto" type="text">
+        </div>
+        <div class="input-group"> 
+            <label class="etiqueta" for="contenido">Contenido</label>
+            <textarea name="" id="contenido" cols="30" rows="10"></textarea>
+        </div>
+        <div> <button type="submit" style="font-weight: bold;">Aceptar</button></div>
+        <div id="caja" class="caja"></div>
+        </form>
+     </body>
+</html>

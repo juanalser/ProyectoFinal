@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "modulus": "^6.5.0",
+    "prompt": "^1.3.0"
+  }
+}

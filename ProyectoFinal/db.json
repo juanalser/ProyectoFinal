@@ -1,0 +1,118 @@
+{
+  "user": [
+    {
+      "id": 2,
+      "name": "Guest User",
+      "username": "guest",
+      "password": "g1234"
+    },
+    {
+      "name": "Raisa Hidalgo",
+      "username": "Rhidalgo",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "Jose Capellan",
+      "username": "jcapellan",
+      "password": "jcapellan",
+      "id": 6
+    }
+  ],
+  "customer": [
+    {
+      "name": "Yul Goaks",
+      "email": "ygoaks3@netvibes.com",
+      "address": "535 Fordem Trail",
+      "createdAt": "2021-08-27",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Chaim Mathon",
+      "email": "cmathon5@e-recht24.de",
+      "address": "91079 4th Center",
+      "createdAt": "2022-04-25"
+    },
+    {
+      "id": 3,
+      "name": "Feodora Lewsie",
+      "email": "flewsie6@princeton.edu",
+      "address": "1 Kinsman Road",
+      "createdAt": "2021-08-24"
+    },
+    {
+      "id": 4,
+      "name": "Jerad Cumberland",
+      "email": "jcumberland7@multiply.com",
+      "address": "36629 Delaware Place",
+      "createdAt": "2021-11-26"
+    },
+    {
+      "id": 5,
+      "name": "Ortensia Pallent",
+      "email": "opallenta@ibm.com",
+      "address": "80 Moose Parkway",
+      "createdAt": "2021-07-12"
+    },
+    {
+      "id": 6,
+      "name": "Montgomery Assinder",
+      "email": "massinderb@ucla.edu",
+      "address": "80 Aberg Place",
+      "createdAt": "2021-06-26"
+    },
+    {
+      "id": 7,
+      "name": "Oswell Dinning",
+      "email": "odinningc@cnet.com",
+      "address": "786 Springs Lane",
+      "createdAt": "2021-12-08"
+    },
+    {
+      "name": "raisa hidalgo",
+      "email": "rhidalgo@itla.com",
+      "address": "itla",
+      "createdAt": "2022-05-19",
+      "id": 8
+    }
+  ],
+  "interaction": [
+    {
+      "note": "Esta nota es para Yul Goaks",
+      "user": {
+        "name": "Raisa Hidalgo",
+        "username": "Rhidalgo",
+        "password": "1234",
+        "id": 5
+      },
+      "customer": {
+        "name": "Yul Goaks",
+        "email": "ygoaks3@netvibes.com",
+        "address": "535 Fordem Trail",
+        "createdAt": "2021-08-27",
+        "id": 1
+      },
+      "createdAt": "2022-05-31",
+      "id": 1
+    },
+    {
+      "note": "nota para Chaim Mathon",
+      "createdAt": "2022-05-31",
+      "user": {
+        "name": "Raisa Hidalgo",
+        "username": "Rhidalgo",
+        "password": "1234",
+        "id": 5
+      },
+      "customer": {
+        "id": 2,
+        "name": "Chaim Mathon",
+        "email": "cmathon5@e-recht24.de",
+        "address": "91079 4th Center",
+        "createdAt": "2022-04-25"
+      },
+      "id": 2
+    }
+  ]
+}

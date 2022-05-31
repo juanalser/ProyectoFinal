@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body{
+
+    font-family: Quicksand;
+    color:cornflowerblue;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+h1{
+    font-size:40px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p{
+    margin: 0;
+}
+
+ul,li{
+    padding: 0;
+    margin: 8px;
+}
+
+
+h1,h3{
+    text-transform: uppercase;
+}
+
+h3{
+    letter-spacing: 4px;
+    position: relative;
+
+}
+
+/*para colocar la rayita debajo de cada titulo del articulo*/
+h3::before{
+    content: ''; /*se debe indicar un contenido vacio para poder lograr el efecto deseado*/
+    width: 80px;
+    height: 3px;
+    display: block;
+    background-color: black;
+    position:absolute;
+    bottom: -10px; 
+}
+
+.article {
+    min-height: 150px;
+    margin: 8px auto;
+}
+
+.contenedor{
+    display:flex;
+
+    width:595px;
+    min-height:842px;
+   
+    margin: 0 auto; /*auto hace que se centre*/
+    background-color: #fdfcdc;
+    outline: cadetblue solid 5px ;
+}
+
+.seccion1{
+    width: 40%;  
+}
+
+.seccion2{
+    width: 60%;
+    background-color:#94d2bd;
+}
+
+.seccion1,.seccion2{
+    padding: 20px;
+}
+
+.avatar{
+    width:150px;
+    height:auto;
+    /*para redondear las esquinas de la imagen*/
+    border-radius: 50%;
+    /*para centrar la imagen dentro de la seccion*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.listado-contacto{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profesion{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.icono-lista{
+    margin-right: 10px;
+ }
+
+.negrita{
+    font-weight: bold;
+}
+
+#fechas{
+    font-weight: bold;
+    margin-left:15px;
+}

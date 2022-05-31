@@ -1,0 +1,24 @@
+{
+  "name": "ejercicios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhidalgo1202/2022_ITLA_WEBJAVA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhidalgo1202/2022_ITLA_WEBJAVA/issues"
+  },
+  "homepage": "https://github.com/rhidalgo1202/2022_ITLA_WEBJAVA#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

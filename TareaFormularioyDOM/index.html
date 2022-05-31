@@ -1,0 +1,43 @@
+<!DOCTYPE html5>
+<html lang="es">
+    <head>
+        <!--indicar el conjunto de codificacion de caracteres que se utiliza-->
+        <meta charset="UTF-8"> 
+        <!--indicar el modo de compatibilidad para el navegador
+            no es neceesario utilizar si se define el documento como HTML5
+            content se usa para establecer la informacion para el atributo http-equiv-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--viewport es el área visible del usuario de una página web.
+        content le da al navegador instrucciones sobre como controlar las dimensiones y la escala de la pagina
+        width=device-width establece el ancho de la página
+        initial-scale=1.0 establece el nivel de zoom inicial cuando el navegador carga la página
+        por primera vez.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Indica el titulo de la pagina-->
+        <title>Mi Fomulario</title>
+        <!--Indica la hoja de estilo css a usar-->
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+
+    <H1 id="titulo"> Primer formulario HTML del diplomado Javascript</H1>
+    <!--En este caso solo me interesa en negrita el primer parrafo
+    por eso solo le puse el selector de clase a ese parrafo solamente-->
+    <p class="negrita">
+        Estamos ejecutando esta aplicacion con Express.        
+    </p>
+    <p class="verde">
+        <!--agrego un lorem para agregar un texto-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sequi atque! Blanditiis qui dolore, aperiam similique mollitia sit quod perspiciatis tenetur, et dolores vel, doloribus sed nisi ut natus amet.
+   </p>
+   <!--Agregamos un formulario con controles para introducir y mostrar datos-->
+   <form>
+       <!--utilizo la etiqueta div para poner cada control en una linea diferente y separarmos-->
+    <div> <input type="text"></div>
+    <div> <input type="text"></div>
+    <div> <textarea name="" id="" cols="30" rows="10"></textarea></div>
+    <div> <button type="submit">Aceptar</button></div>
+    </form>
+    </body>
+</html>

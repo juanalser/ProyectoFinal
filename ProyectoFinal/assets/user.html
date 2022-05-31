@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="js/seguridad/user.js"></script>
+    <script defer src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>User</title>
+</head>
+ 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #94d2bd;" mb-3>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">CRM Registro de Usuarios</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="row">
+            <article class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="user-form">
+                            <input type="hidden" name="id" id="id">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" name="username">
+                            </div>
+                           <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="text" class="form-control" id="password" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-success" >Create</button>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

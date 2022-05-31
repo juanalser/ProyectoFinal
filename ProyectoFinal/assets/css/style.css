@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.container {
+    padding-top: 2em;
+}
+
+.card {
+     width: 50vw;
+     height: auto;
+     resize: both;
+     margin: 0 auto; 
+     justify-content: center;
+}
+
+.btn-success{
+    margin-top: 15px;    
+}
+
+.mb-4 {
+    width: 15vw;
+}
+
+#nombreusuario{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+ }
+
+ #lista {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0;
+}
+
+#lista ul {
+    margin: 0 0 0 2em; 
+}
+
+#lista li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+#lista li:hover{
+    background: #eee;
+}
+
+#lista li:hover:before{
+    transform: rotate(360deg);  
+}
+
+#lista li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #94d2bd;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    /* font-weight: bold; */
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+#current {
+	width: 25vw;
+	height:10vh;
+    font-weight: bold;
+	margin-top: 15px;
+}
+
+#nota {
+	width: 45vw;
+	height: 30vh;
+}
+
+.sinborde {
+    border: 0;
+}
